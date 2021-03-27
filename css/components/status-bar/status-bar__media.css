@@ -1,0 +1,13 @@
+@media screen and (max-width: 370px) {
+  .status-bar {
+    padding: 5px 3px;
+    font-size: 70%;
+  }
+}
+
+/* Surface Duo compatibility */
+@media screen and (screen-spanning: single-fold-vertical) {
+  .status-bar__column:nth-child(2) {
+    justify-content: flex-start;
+  }
+}

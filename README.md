@@ -2,11 +2,11 @@
 
 HTML and CSS are so much fun!
 
-## Ideas
+## Inspirate from...
 
-Picture:  
+Pictures:  
 https://blogview.hyundaicardcapital.com/402  
 https://gwyn.tistory.com/20
 
-Name(Some of them):  
+Names(Some of them):  
 https://race.kra.co.kr/seoulMain.do
