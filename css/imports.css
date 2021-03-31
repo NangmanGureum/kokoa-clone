@@ -13,6 +13,10 @@
 @import "components/nav-bar/nav-bar.css";
 @import "components/nav-bar/nav-bar__media.css";
 
+/* Screen Header */
+@import "components/screen-header/screen-header.css";
+@import "components/screen-header/screen-header__media.css";
+
 /* ==================== */
 /*        Screens       */
 /* ==================== */
@@ -20,3 +24,7 @@
 /* Login Page */
 @import "screens/login/login.css";
 @import "screens/login/login__media.css";
+
+/* Friends List */
+@import "screens/friends/friends.css";
+@import "screens/friends/friends__media.css";
