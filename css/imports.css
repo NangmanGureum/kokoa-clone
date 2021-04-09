@@ -17,6 +17,10 @@
 @import "components/screen-header/screen-header.css";
 @import "components/screen-header/screen-header__media.css";
 
+/* User Component */
+@import "components/user-component/user-component.css";
+@import "components/user-component/user-component__media.css";
+
 /* ==================== */
 /*        Screens       */
 /* ==================== */

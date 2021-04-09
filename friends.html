@@ -30,20 +30,58 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+    <main class="main-screen main-screen--friends">
+        <header class="main-screen__screen-header">
+            <h1 class="main-screen__screen-header__title">Friends</h1>
+            <div class="main-screen__screen-header__icons">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-music fa-lg"></i></span>
+                <span><i class="fas fa-cog fa-lg"></i></span>
+            </div>
+        </header>
+    
+        <a href="#" id="friends-display-link">
+            <i class="fas fa-info-circle"></i>
+            Friends' Names Display
+            <i class="fas fa-chevron-right fa-xs"></i>
+        </a>
+    
+        <div class="main-screen__main-screen__user-component">
+            <div class="main-screen__user-component__column">
+                <img src="img/example-profile-icon.png" alt="Me" class="main-screen__user-component__column__avatar main-screen__user-component__column__avatar--xl">
+                <div class="main-screen__user-component__column__text">
+                    <h4 class="main-screen__user-component__column__text__title">
+                        Me
+                    </h4>
+                    <!-- <h6 class="user-component__column__text__subtitle">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h6> -->
+                </div>
+            </div>
+            <div class="main-screen__user-component__column"></div>
         </div>
-    </header>
 
-    <a href="#" id="friends-display-link">
-        <i class="fas fa-info-circle"></i>
-        Friends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
+        <div class="main-screen__channel">
+            <div class="main-screen__channel__header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+
+            <div class="main-screen__main-screen__user-component">
+                <div class="main-screen__user-component__column">
+                    <img src="img/example-profile-icon.png" alt="Me" class="main-screen__user-component__column__avatar main-screen__user-component__column__avatar--sm">
+                    <div class="main-screen__user-component__column__text">
+                        <h4 class="main-screen__user-component__column__text__title">
+                            Channel
+                        </h4>
+                    </div>
+                </div>
+                <div class="main-screen__user-component__column"></div>
+            </div>
+
+        </div>
+    </main>
+
 
     <nav class="nav">
         <ul class="nav__list">
